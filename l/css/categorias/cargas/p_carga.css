@@ -1,0 +1,57 @@
+.cont-princ {
+  background-image: linear-gradient(rgba(130, 178, 118, 0.5), rgba(146, 188, 135, 0.5)), var(--v_p_inic);
+  height: 645px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 800px) {
+  .cont-princ {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), var(--v_p_inic);
+    height: 730px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+  }
+}
+
+.header-princ {
+  width: auto;
+  height: 60px;
+  padding: 10px;
+}
+.main-princ {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+.footer-princ {
+  width: auto;
+  height: 60px;
+  padding: 10px;
+}
+
+/*Barra de progreso*/
+#myProgress {
+  /*width: 360px;*/
+  width: 100%;
+  background-color: var(--c_inf_bar);
+  border-radius: 10px;
+}
+
+#myBar {
+  width: 1%;
+  height: 10px;
+  border-radius: 10px;
+  background-color: var(--c_sup_bar);
+}
+@media screen and (min-width: 800px) {
+  #myProgress {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+/*Fin de barra de progreso*/

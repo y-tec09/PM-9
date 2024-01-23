@@ -1,0 +1,44 @@
+.t04 p {
+	color: #999;
+	position: relative;
+	margin: 0 0 1.5em 0;
+	font-style: italic;
+}
+
+.t04 h2 + p {
+	font-size: 1.25em;
+	margin-top: -1em;
+	line-height: 1.5em;
+}
+
+.t04 h3 + p {
+	font-size: 1.1em;
+	margin-top: -0.85em;
+	line-height: 1.5em;
+}
+
+.t04 h4 + p,
+.t04 h5 + p,
+.t04 h6 + p {
+	font-size: 0.8em;
+	margin-top: -0.5em;
+	line-height: 1.5em;
+}
+
+.t04.major {
+	padding: 1em 0;
+	text-align: center;
+}
+
+.t04.major h2 {
+	margin: 0;
+}
+
+.t04.major p {
+	display: inline-block;
+	border-top: solid 2px #e5e5e5;
+	color: #777;
+	margin: 1.5em 0 0 0;
+	padding: 1.5em 0 0 0;
+	font-style: normal;
+}

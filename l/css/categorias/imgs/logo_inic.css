@@ -1,0 +1,13 @@
+.inicio p {
+  margin-top: 10px;
+}
+.cont-inicio {
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-inicio img {
+  width: 80px;
+}

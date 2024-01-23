@@ -1,0 +1,52 @@
+/*Panel css*/
+/*Dentro de este archivo se manejan las variables necesesarias para implementar las librerias de las plantillas y accesorios WEB*/
+
+/*Área de llamado de las plantillas y accesorios*/
+/*@import url('www.librerias.com/libreria1.css');*/
+@import url('./categorias/cargas/p_carga.css');
+@import url('./categorias/pie_pagina/marc_agua.css');
+@import url('./categorias/textos/t_princ.css');
+@import url('./categorias/imgs/logo_inic.css');
+@import url('./categorias/cards/perfil_01.css');
+
+@import url('./externo/css/main.css');/*Externo*/
+
+/*Fin de llamado*/
+
+/*Área de declaración de variables*/
+:root {
+	/*Declaración de paleta de colores*/
+		--color1: #D8B305;
+		--color2: #DDBC24;
+		--color3: #E2C644;
+		--color4: #E7CF63;
+		--color5: #ECD982;
+		--color6: #F0E2A1;
+		--color7: #F5ECC1;
+	/*Fin de paleta*/
+
+	/*Imagen de pantalla de carga y portada*/
+		--v_p_inic: url('../../imgs/PORT_00.jpg');
+
+	/*Color de barra de progreso*/
+		--c_sup_bar: #D8B305;
+		--c_inf_bar: #ECD982;
+
+	/*Color de titulo de bara de carga*/
+		--t_c_princ: #D8B305;
+
+	/*Color de marca de agua*/
+		--c_m_agua: #E7CF63;
+
+	/*Imagén principal de portada*/
+		--img_port: url('../../imgs/PORT_01.jpg');
+
+}
+/*Fin de la declaración*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}

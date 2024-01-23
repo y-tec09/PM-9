@@ -1,0 +1,13 @@
+.h4-princ {
+  color: var(--t_c_princ);
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 800px) {
+  .h4-princ {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
